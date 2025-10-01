@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,10 +14,9 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 600px;
+  height: 550px;
   background-color: #1f2937; 
 }
-
 .hero {
   width: 100%;
   max-width: 1200px;
@@ -40,14 +41,11 @@ body {
   font-weight: 900;
   cursor: pointer;
 }
-
 .menu {
   align-self: center;
 }
-
 .menu ul {
   display: flex;
-
 }
 .menu ul li,
 .menu li a {
@@ -56,10 +54,8 @@ body {
   color: #e5e7eb;
   font-size: 18px;
   align-self: center;
- 
   padding-left: 20px;
 }
-
 .jumbo {
   display: flex;
   flex-direction: row;
@@ -68,9 +64,7 @@ body {
   height: 100%;
   align-items: center;
   justify-content: center;
-  
 }
-
 .left {
   width: 50%;
   display: flex;
@@ -106,14 +100,12 @@ button{
   font-weight: bold;
   cursor: pointer;
 }
-
 .right {
   display: flex;
   justify-content: end;
   align-items: center;
   width: 50%;
 }
-
 .right-img {
   width: 100%;
   height: 256px;
@@ -124,12 +116,11 @@ button{
 /* article-container */
 
 .article-container {
- display: flex;
+  display: flex;
   justify-content: center;
   width: 100%;
   height: 500px;
 }
-
 .article {
   width: 100%;
   max-width: 1200px;
@@ -142,22 +133,24 @@ button{
   display: flex;
   justify-content: center;
   padding-top: 50px;
+  padding-bottom: 25px;
 }
 .title-1 h1{
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
 }
-
 .cards {
   display: flex;
   flex-direction: row;
   width: 100%;
   max-width: 1200px;
   height: 100%;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-  gap: 60px;
+  gap: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .card {
   display: flex;
@@ -165,7 +158,6 @@ button{
   justify-content: center;
   flex-direction: column;
 }
-
 .card-content {
   display: flex;
   flex-direction: column;
@@ -179,7 +171,6 @@ button{
   display: flex;
   position: relative;
 }
-
 .card-img-box img {
   display: flex;
   width: 160px;
@@ -193,7 +184,6 @@ button{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .card-content p{
   padding-top: 20px;
   display: flex;
@@ -203,3 +193,31 @@ button{
   font-size: 18px;
   width: 200px;
 }
+
+/* thor cites */
+
+.thor-cites-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-color: #E5E7EB;
+}
+.thor-cites {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.thor-cites h1{
+  font-size: 36px;
+  font-weight: 300;
+}
+.cita {
+  padding-left: 500px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
